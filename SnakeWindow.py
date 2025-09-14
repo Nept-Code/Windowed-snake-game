@@ -221,7 +221,13 @@ class Points:
 # Game loop functions
 
 def perform_snake_actions():
+    
     """Execute all snake actions for each frame."""
+    # Make the snake on top of everything
+
+    for i in range(len(snake.masters)):
+
+        snake.masters[i].focus_force()
     snake.update_position()
     snake.check_fruit_collision()
     snake.check_self_collision()
@@ -237,6 +243,7 @@ root.bind_all("<Key>", snake.handle_key)
 
 # Main game loop
 while game_active:
+
     perform_snake_actions()
 
     if not is_running:
