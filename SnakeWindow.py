@@ -5,7 +5,7 @@
 
 Author: Nicolas D'Souza
 Date: 2025
-Version: 1.0
+Version: 2.0
 
 Description:
 Pixel-based Snake game using Python and Tkinter.
