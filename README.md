@@ -16,6 +16,7 @@ S / Down Arrow : Move down
 A / Left Arrow : Move left
 D / Right Arrow : Move right
 Q : Quit game
+R : Restart game
 
 Notes
 Optimized for macOS
